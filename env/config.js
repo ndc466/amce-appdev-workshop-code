@@ -1,23 +1,25 @@
 const config = {
-  baseUrl: "<Base URL>",
-  idcsUrl: "<IDCS Service Instance URL>",
-  oAuthTokenEndpoint: "<OAuth Token Endpoint>",
-  backendName: "<Backend Name>",
+  baseUrl: "<BASE_URL>",
+  idcsUrl: "<IDCS_HOST_URL>",
+  oAuthTokenEndpoint: "<OAUTH_TOKEN_ENDPOINT>",
+  backendName: "<MBE_NAME>",
   basicAuth: {
-    backendId: "<Backend ID>",
-    anonymousKey: "<Anonymous Key>"
+    backendId: "<MBE_ID>",
+    anonymousKey: "<ANONYMOUS_KEY>"
   },
   oAuth: {
-    clientId: "<Client ID>",
-    clientSecret: "<Client Secret>",
+    clientId: "<CLIENT_ID>",
+    clientSecret: "<CLIENT_SECRET>",
   },
   auth: {
-    userId: "<IDCS User ID>",
+    username: "<AMCE_USER>",
+    password: "<AMCE_PW>",
+    userId: "<IDCS_USER_ID>",
     groupIds: {
-      "<Group 1>": "<IDCS Group ID (1)>",
-      "<Group 2>": "<IDCS Group ID (2)>"
+      "<GROUP1>": "<IDCS_GROUP1_ID>",
+      "<GROUP2>": "<IDCS_GROUP2_ID>"
     },
-    accessToken: "<IDCS OAuth Access Token>"
+    accessToken: "<IDCS_OAUTH_ACCESS_TOKEN>"
   }
 }
 
