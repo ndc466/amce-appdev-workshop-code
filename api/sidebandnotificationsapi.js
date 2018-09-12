@@ -81,7 +81,7 @@ module.exports = function(service) {
 			.then(result => {
 				var device = {
 					mobileClient: {
-						id: "com.creditunion.client.app",
+						id: 'com.creditunion.client.app',
 						version: "1.0",
 						platform: "IOS"
 					},
