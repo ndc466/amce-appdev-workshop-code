@@ -74,7 +74,7 @@ module.exports = function(service) {
 			}, error => {
 				res.send({
 					status: error.statusCode, 
-					request: "Get dealer with mobile number",
+					request: 'Get dealer with mobile number',
 					message: error.error
 				});
 			})
@@ -82,10 +82,10 @@ module.exports = function(service) {
 				var device = {
 					mobileClient: {
 						id: 'com.creditunion.client.app',
-						version: "1.0",
-						platform: "IOS"
+						version: '1.0',
+						platform: 'IOS'
 					},
-					notificationProvider: "APNS",
+					notificationProvider: 'APNS',
 					notificationToken: token,
 					user: mobile
 				}
@@ -93,7 +93,7 @@ module.exports = function(service) {
 			}, error => {
 				res.send({
 					status: error.statusCode, 
-					request: "Update dealer with token",
+					request: 'Update dealer with token',
 					message: error.error
 				});
 			})
