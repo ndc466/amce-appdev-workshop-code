@@ -1,1 +1,21 @@
-{"loanId":null,"cudlId":"479","value":5325,"lastNotification":"5/15/2018, 11:49:35 AM","status":"Current","dealership":"Fred Haas Toyota","loanee":"Matthew Richards","contact_mobile":"(832) 615-1543","contact_name":"Lisa Mitchell","messages":[{"from":"Credit Union Loan Processor","subject":"Notification Channel Created","message":"A Credit Union notification channel has just been created for this loan profile.","unread":true,"to":"Lisa Mitchell","time":"5/15/2018, 11:49:35 AM"}]}
+{
+  "loanProcessor": "Bala Gupta",
+  "loanId": "",
+  "systemId": "456",
+  "value": 45433,
+  "lastNotification": "7/20/2018, 5:22:09 AM",
+  "status": "Current",
+  "dealership": "Fred Haas",
+  "loanee": "Jack Swanson",
+  "contact_mobile": "8326221587",
+  "contact_name": "Nolan Corcoran",
+  "messages": [{
+    "from": "Bala Gupta",
+    "to": "Nolan Corcoran",
+    "subject": "New Loan Notification Profile Created",
+    "body": "A Credit Union loan notification profile has just been created with loan ID #456",
+    "time": "7/20/2018, 5:22:09 AM",
+    "unread": true,
+    "loanId": ""
+  }]
+}
