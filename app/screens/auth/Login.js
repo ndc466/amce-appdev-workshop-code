@@ -90,7 +90,7 @@ class Login extends Component {
         <ImageBackground style={styles.picture} source={bgSrc}>
           <View style={styles.logoContainer}>
             <Image source={logoImg} style={styles.image} />
-            <Text style={styles.text}>REACT NATIVE</Text>
+            <Text style={styles.text}>CREDIT UNION</Text>
           </View>
           <KeyboardAvoidingView behavior="padding" style={styles.formContainer}>
             <View style={styles.inputWrapper}>
