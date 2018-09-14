@@ -27,8 +27,8 @@ class Login extends Component {
       showPass: true,
       press: false,
       isLoading: false,
-      email: "nd.corc@utexas.edu",
-      password: "Snickers2",
+      email: "",
+      password: "",
       redirect: false,
       loginFailed: false,
     };

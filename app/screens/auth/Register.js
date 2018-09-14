@@ -32,8 +32,8 @@ class Register extends Component {
     this.state = {
       showPass: true, press: false, isLoading: false,
       redirect: false, registerFailed: false,
-      firstName: "Lisa", lastName: "Mitchell",
-      email: "nd.corc@utexas.edu", mobile: "8326221587", password: "Snickers2"
+      firstName: "", lastName: "",
+      email: "", mobile: "", password: ""
     };
     this.buttonAnimated = new Animated.Value(0);
     this.growAnimated = new Animated.Value(0);
